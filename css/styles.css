@@ -1,0 +1,332 @@
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px; } }
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px; } }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px; } }
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1320px; } }
+
+body {
+  background: linear-gradient(to bottom, #c15de9, white);
+  font-family: 'Dancing Script', cursive; }
+
+.main {
+  width: 100px; }
+  .main .main__nav {
+    display: flex;
+    background: #8d1fe8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 1300px; }
+    .main .main__nav .nav__ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      width: 800px; }
+      .main .main__nav .nav__ul .nav__foto {
+        height: 100px; }
+      .main .main__nav .nav__ul .nav__group {
+        margin-right: 100px; }
+        .main .main__nav .nav__ul .nav__group .group__title {
+          text-decoration: none;
+          text-decoration: none;
+          color: white;
+          position: relative;
+          left: 50px;
+          top: 15px; }
+        .main .main__nav .nav__ul .nav__group .group__title:hover {
+          background-color: #38daff;
+          color: #6200ff;
+          padding: 20px; }
+
+.titulo {
+  text-align: center;
+  color: aqua;
+  font-size: 50px;
+  font-family: "titulo";
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  top: 200px; }
+
+.tituloC {
+  text-align: center;
+  color: aqua;
+  font-size: 50px;
+  font-family: "titulo";
+  font-family: 'Dancing Script', cursive; }
+
+.flerkxn {
+  text-align: center;
+  color: chartreuse;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  position: relative;
+  top: 60px; }
+
+.descripcionTienda {
+  text-align: center;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  position: relative;
+  top: 20px; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px; }
+  .contenedor .tarjeta {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .contenedor .tarjeta .tarjeta__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .contenedor .tarjeta .tarjeta__titulo {
+      color: aqua; }
+    .contenedor .tarjeta .tarjeta__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .contenedor .tarjeta .parrafo__text {
+      color: white; }
+  .contenedor .tarjeta:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.contenedor1 {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+  .contenedor1 .tarjeta1 {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .contenedor1 .tarjeta1 .tarjeta1__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .contenedor1 .tarjeta1 .tarjeta1__titulo {
+      color: aqua; }
+    .contenedor1 .tarjeta1 .tarjeta1__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .contenedor1 .tarjeta1 .parrafo__text {
+      color: white; }
+  .contenedor1 .tarjeta1:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.pantalones {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px; }
+  .pantalones .seccion {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .pantalones .seccion .seccion__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .pantalones .seccion .seccion__titulo {
+      color: aqua; }
+    .pantalones .seccion .seccion__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .pantalones .seccion .seccion__text {
+      color: white; }
+  .pantalones .seccion:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.zapatillas {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px; }
+  .zapatillas .tercera {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .zapatillas .tercera .tercera__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .zapatillas .tercera .tercera__titulo {
+      color: aqua; }
+    .zapatillas .tercera .tercera__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .zapatillas .tercera .tercera__text {
+      color: white; }
+  .zapatillas .tercera:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.formulario {
+  width: 100px;
+  position: relative;
+  left: 500px; }
+
+.zapatilla {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+  .zapatilla .cuarta {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .zapatilla .cuarta .cuarta__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .zapatilla .cuarta .cuarta__titulo {
+      color: aqua; }
+    .zapatilla .cuarta .cuarta__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .zapatilla .cuarta .cuarta__text {
+      color: white; }
+  .zapatilla .cuarta:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.pantalon {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+  .pantalon .quinta {
+    background-color: #c01ad5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .pantalon .quinta .quinta__img {
+      width: 250px;
+      height: 200px;
+      margin-right: 30px; }
+    .pantalon .quinta .quinta__titulo {
+      color: aqua; }
+    .pantalon .quinta .quinta__parrafo {
+      color: white;
+      line-height: 28px;
+      font-size: 1rem; }
+    .pantalon .quinta .quinta__text {
+      color: white; }
+  .pantalon .quinta:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1); }
+
+.guiaCamiseta {
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto; }
+  .guiaCamiseta .guia {
+    background-color: #cccccc;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; }
+    .guiaCamiseta .guia .guia__img {
+      width: 450px;
+      height: auto;
+      margin-right: 30px; }
+    .guiaCamiseta .guia .guia__titulo {
+      text-align: center; }
+    .guiaCamiseta .guia .guia__parrafo {
+      text-align: center; }
+
+.footer {
+  height: 200pxpx;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+  top: 200px; }
+  .footer p {
+    width: 100%;
+    text-align: center; }
+  .footer .redes {
+    margin: auto;
+    display: flex; }
+    .footer .redes img {
+      margin: auto;
+      display: block;
+      height: 50px; }
+
+.footer1 {
+  height: 200pxpx;
+  width: 100%;
+  background-color: gray; }
+  .footer1 p {
+    width: 100%;
+    text-align: center; }
+  .footer1 .redes1 {
+    margin: auto;
+    display: flex; }
+    .footer1 .redes1 img {
+      margin: auto;
+      display: block;
+      height: 50px; }
+
+.error {
+  text-align: center;
+  font-size: 100px; }
+
+.pError {
+  text-align: center;
+  color: red;
+  font-size: 50px; }
