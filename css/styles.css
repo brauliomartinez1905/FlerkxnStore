@@ -19,7 +19,7 @@
     width: 1320px; } }
 
 body {
-  background: linear-gradient(to bottom, #c15de9, white);
+  background: green;
   font-family: 'Dancing Script', cursive; }
 
 .main {
